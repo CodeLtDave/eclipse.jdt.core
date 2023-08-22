@@ -88,6 +88,8 @@ public static PatternLocator patternLocator(SearchPattern pattern) {
 			return new ConstructorLocator((ConstructorPattern) pattern);
 		case IIndexConstants.FIELD_PATTERN :
 			return new FieldLocator((FieldPattern) pattern);
+		case IIndexConstants.STRING_LITERAL_PATTERN :
+			return new StringLocator((StringPattern) pattern);
 		case IIndexConstants.METHOD_PATTERN :
 			return new MethodLocator((MethodPattern) pattern);
 		case IIndexConstants.OR_PATTERN :

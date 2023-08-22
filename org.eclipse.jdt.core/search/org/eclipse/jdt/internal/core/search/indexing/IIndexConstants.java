@@ -77,4 +77,5 @@ public interface IIndexConstants {
 	int AND_PATTERN = 0x0800;
 	int ANNOT_REF_PATTERN = 0x1000;
 	int MODULE_PATTERN = 0x2000;
+	int STRING_LITERAL_PATTERN = 0x4000;
 }

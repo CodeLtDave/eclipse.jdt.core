@@ -137,6 +137,14 @@ public interface IJavaSearchConstants {
 	 * @category searchFor
 	 */
 	int MODULE= 12;
+
+	/**
+	 * The searched element is a module.
+	 * @since 3.35
+	 * @category searchFor
+	 */
+	int STRING= 13;
+
 	/* Nature of match */
 
 	/**
